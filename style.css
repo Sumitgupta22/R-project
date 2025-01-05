@@ -1,0 +1,26 @@
+.navbar-my {
+  background: rgb(235, 157, 55);
+  color: rgb(229, 103, 103);
+}
+.stape-first {
+  background: url("image/bg1.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.stape-first {
+  padding-top: 22rem;
+  padding-bottom: 22rem;
+  color: rgb(26, 22, 22);
+}
+.title {
+  background: rgba(237, 225, 225, 0.7);
+  display: inline-block;
+  padding: 10px;
+}
+.text {
+  font-size: smaller;
+  font-weight: bolder;
+  color: white;
+  background: rgba(0, 128, 0, 0.7);
+  display: inline;
+  padding: 10px;
+}
