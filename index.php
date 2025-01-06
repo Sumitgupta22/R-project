@@ -25,7 +25,7 @@
                         </button>
                         <div class="collapse navbar-collapse" id="menumy">
                             <ul class="navbar-nav px-3">
-                                <li class="nav-item"><a href="" class="nav-link disabled">HOME</a></li>
+                                <li class="nav-item"><a href="" class="nav-link disabled">my HOME</a></li>
                                 <li class="nav-item"><a href="ADD-DOC.php" class="nav-link">ADD-DOC</a></li>
                                 <li class="nav-item"><a href="ADD-DOCUMENT.PHP" class="nav-link">INSERT_DOCUMENTS</a>
                                 </li>
