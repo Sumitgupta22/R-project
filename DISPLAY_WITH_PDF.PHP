@@ -78,7 +78,7 @@ $NO_SHOW_TABLE = false;
 
                                                         <?php
                                                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                                                            echo '<a href="PDF.PHP?USERID=' . $_POST['display_uid'] . '" class="btn" >downelod</a>';
+                                                            echo '<a href="DOMPDF/PDF.PHP?USERID=' . $_POST['display_uid'] . '" class="btn" >downelod</a>';
                                                             if (isset($_POST["display_uid"])) {
                                                                 $user_id = $_POST['display_uid'];
                                                                 $check_exist_table = $con->query("SHOW TABLES LIKE '$user_id'");
@@ -139,7 +139,7 @@ $NO_SHOW_TABLE = false;
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="PDF.PHP?USERID=" class="btn">downelod</a>
+                                        <a href="dompdf/PDF.PHP?USERID=" class="btn">downelod PDF</a>
 </body>
 
 </html>
